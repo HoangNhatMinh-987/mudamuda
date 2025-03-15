@@ -1,0 +1,177 @@
+!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Báo Tường</title>
+    <style>
+        /* Tổng thể */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f7f3;
+            color: #333;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border: 5px solid #84c56d;
+            background-image: url('https://www.transparenttextures.com/patterns/spring-paper.png');
+        }
+
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffdd99;
+            border-bottom: 4px solid #84c56d;
+        }
+
+        .header h1 {
+            font-size: 3rem;
+            color: #006400;
+            margin: 0;
+        }
+
+        .header p {
+            font-size: 1.3rem;
+            color: #333;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        /* Các phần khung */
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 10px -10px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+        }
+
+        .box {
+            background-color: #fff;
+            border: 3px solid #84c56d;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .box h3 {
+            font-size: 1.5rem;
+            color: #4CAF50;
+            margin-bottom: 10px;
+        }
+
+        .box p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        /* Thư viện hình ảnh */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+            border: 3px solid #84c56d;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ffdd99;
+            border-top: 4px solid #84c56d;
+            margin-top: 20px;
+            font-size: 1rem;
+            color: #006400;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Vững Mãi Niềm Tin</h1>
+            <p>Số báo đặc biệt ra ngày 20/11</p>
+        </div>
+
+        <!-- Nội dung -->
+        <div class="row">
+            <!-- Lời Ngỏ -->
+            <div class="column">
+                <div class="box">
+                    <h3>Lời Ngỏ</h3>
+                    <p>
+                        Chúng em xin gửi đến quý thầy cô lời tri ân chân thành nhất. 
+                        Từng bài học, từng lời chỉ bảo của thầy cô là ngọn đèn soi sáng tương lai của chúng em.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Truyện Cười -->
+            <div class="column">
+                <div class="box">
+                    <h3>Truyện Cười</h3>
+                    <p>Học sinh hỏi: "Thưa thầy, tại sao gọi là bàn học?"<br>
+                    Thầy trả lời: "Vì ở đó các em học cách... ngủ ngon!"</p>
+                </div>
+            </div>
+
+            <!-- Bài Thơ -->
+            <div class="column">
+                <div class="box">
+                    <h3>Bài Thơ</h3>
+                    <p>
+                        Người lái đò thầm lặng<br>
+                        Chở những ước mơ bay xa<br>
+                        Dẫu nắng mưa bạc màu tóc<br>
+                        Tình yêu tri thức mãi đậm đà.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Thư Viện Hình Ảnh -->
+        <div class="section">
+            <h3 style="text-align:center; color: #006400; margin-bottom: 20px;">Thư Viện Hình Ảnh</h3>
+            <div class="gallery">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBDtl2OafttcBK04Oe13rd4yGLIYBfYflXlQ&s" alt="Quá khứ">
+                <img src="https://scontent.fhan3-5.fna.fbcdn.net/v/t39.30808-6/481999270_967970965472164_3515877977567962239_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeH9jnyBXWJkWqDXbqVIr8dwrA2Q5ASf4PSsDZDkBJ_g9HEPVQIpZSsNrdrAQwUW4wbCWLVRPBwlFyOCZ5y2YyoI&_nc_ohc=BtlQ0GMmbkMQ7kNvgF7AZED&_nc_oc=Adi5fo7RIsF7vFIOmqjy9b7H0oBgrIDcix3-8JLgyJzdE36syCxrGHaGZmeu_4JUdz74xvY6kBdb5WU9RCM04GRt&_nc_zt=23&_nc_ht=scontent.fhan3-5.fna&_nc_gid=Q4xDEE4OR8t-e0VMdGw0_Q&oh=00_AYGq8NPzYAwsLN_1BxdVrDdB_OrN8nX3Hcq9keb8b3Z6Zw&oe=67DB1746" alt="Hiện tại">
+                <img src="https://scontent.fhan3-2.fna.fbcdn.net/v/t39.30808-6/481125237_4017007388544257_8257629262375869384_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_eui2=AeG8wnJNvGunMoqvy0usaHnZhtK4xPd5MsiG0rjE93kyyI5Wrdg2HYCEp4rVzloaDE5V7MhH1CVLcLCXnzDOP6TX&_nc_ohc=q_GnX6ZVw9sQ7kNvgFDGTpf&_nc_oc=Adg4lgPfNEjtSAm-vJzjQ66AjAFx_a16eRMZ3Wssj92GSy8Ld6RjQ6DWbarHYor2C0jE1fHueViQmBhfEGPWfyEE&_nc_zt=23&_nc_ht=scontent.fhan3-2.fna&_nc_gid=cpzI0jTod7bJPBiIebO3Iw&oh=00_AYHkbobiEu0p4Eq_LKi4CZBI63qpP9qGW182N3vPV1NAXw&oe=67DB023B" alt="Tương lai">
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>© 2025 - Báo tường lớp 12A - Tri ân thầy cô</p>
+        </div>
+    </div>
+</body>
+</html>
